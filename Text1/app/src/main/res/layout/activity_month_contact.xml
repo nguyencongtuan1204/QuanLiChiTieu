@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorBackground">
+    <TextView
+        android:id="@+id/tvMonthlyPlan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:background="@color/colorBackground"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/padding_extra_extra_large"
+        android:paddingTop="@dimen/otherpadding"
+        android:paddingRight="@dimen/otherpadding"
+        android:paddingBottom="@dimen/otherpadding"
+        android:textSize="@dimen/fontSize"
+        android:text="Tháng 9 năm 2018"
+        android:textColor="@color/TextMain"/>
+    <ImageButton
+        android:id="@+id/ibtnIncome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher_income"
+        android:background="@color/colorBackground"/>
+    <ImageButton
+        android:id="@+id/ibtnExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher_expense"
+        android:background="@color/colorBackground"/>
+</LinearLayout>

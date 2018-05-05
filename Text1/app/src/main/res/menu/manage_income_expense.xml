@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnGotoIncomeActiviti"
+        android:title="@string/Activity_Income"/>
+    <item
+        android:id="@+id/btnGotoExpenseActivity"
+        android:title="@string/Activity_Expence"/>
+    <item
+        android:id="@+id/btnThisMonth"
+        android:title="@string/Activity_Manage"/>
+</menu>

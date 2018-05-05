@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/Loginwidth"
+    android:layout_height="wrap_content"
+    tools:context="com.tuannguyen.text1.CreateWorkinMonthActivity">
+    <TextView
+        android:id="@+id/tvCreateWorktoWork"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:hint="Công việc 1"
+        android:textSize="@dimen/fontSize"
+        android:textColor="@color/TextMain"/>
+    <TextView
+        android:id="@+id/tvCreateWorktoMoney"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:gravity="right"
+        android:hint="1 000 000" />
+    <ImageButton
+        android:id="@+id/btnCreateWorktoEdit"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.2"
+        android:src="@mipmap/ic_launcher_edit"
+        android:scaleType="fitCenter"
+        android:background="@color/colorBackground"/>
+
+
+</LinearLayout>

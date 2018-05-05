@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    /*Left Menu*/
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horixontal_margin">16dp</dimen>
+    <dimen name="padding_tiny">2dp</dimen>
+    <dimen name="padding_tiny_plus_one">3dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_extra_large">24dp</dimen>
+    <dimen name="padding_extra_extra_large">32dp</dimen>
+
+
+    /*Login_Activity*/
+    <dimen name="Loginwidth">330dp</dimen>
+    <dimen name="LoginHeight">40dp</dimen>
+    <dimen name="fontSize">15sp</dimen>
+
+    /*Main_Activity*/
+    <dimen name="TextSizeCreate">20sp</dimen>
+    <dimen name="btnDate">250dp</dimen>
+    <dimen name="Main_margin_left">35dp</dimen>
+
+    /*Monthly Plan*/
+    <dimen name="Margin_Top_Monthly_Plan">20dp</dimen>
+    <dimen name="Margin_Left_Monthly_Plan">50dp</dimen>
+    <dimen name="Monthly_Plan_Space">5dp</dimen>
+    
+    /*Manage Activity*/
+    <dimen name="TextSizeView">25sp</dimen>
+    <dimen name="ColumnWork">199dp</dimen>
+    <dimen name="ColumnMoney">80dp</dimen>
+    <dimen name="ColumnEdit">20dp</dimen>
+    <dimen name="ColunmHeight">25dp</dimen>
+    
+    /*Left Menu*/
+
+    <!-- Main Activity components -->
+    <dimen name="empty_icon_width">60dp</dimen>
+    <dimen name="empty_icon_height">60dp</dimen>
+    <dimen name="navigation_header_height">160dp</dimen>
+    <dimen name="navigation_item_height">30dp</dimen>
+    <dimen name="navigation_item_icon_size">24dp</dimen>
+    <dimen name="margin_Left_Date">20dp</dimen>
+    <dimen name="margin_Top_Button_Add">440dp</dimen>
+    <dimen name="margin_Left_Button_Add">310dp</dimen>
+
+
+    <!--Create Account Activity-->
+    <dimen name="Create_Account_Image_width">100dp</dimen>
+    <dimen name="Create_Account_Image_height">120dp</dimen>
+    <dimen name="Create_Account_TextView">150dp</dimen>
+    <dimen name="Create_Account_EditText">100dp</dimen>
+    <dimen name="Create_Account_margin_top">50dp</dimen>
+    <dimen name="Create_Account_margin_extra_top">20dp</dimen>
+    <dimen name="Create_Account_margin_left">40dp</dimen>
+
+    /*MonthlyPlan*/
+    <dimen name="paddingLeft">30dp</dimen>
+    <dimen name="otherpadding">10dp</dimen>
+
+    /*Information of House*/
+    <dimen name="leftMenu_ChucVu">80dp</dimen>
+    <dimen name="leftMenuNumber">180dp</dimen>
+    <dimen name="TextSizeInfo">24dp</dimen>
+    <dimen name="SizeFragment">20dp</dimen>
+    <dimen name="marginFragment">5dp</dimen>
+</resources>

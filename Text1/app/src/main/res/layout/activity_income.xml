@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_income_drawer"
+    tools:context="com.tuannguyen.text1.IncomeActivity">
+
+    <!--Content-->
+    <LinearLayout
+        android:id="@+id/activity_income_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/DayInMonth"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/padding_small"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:id="@+id/WorkInDay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/colorBackground"/>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btnMainAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_Button_Add"
+        android:layout_marginTop="@dimen/margin_Top_Button_Add"
+        android:background="@color/colorBackground"
+        android:src="@mipmap/ic_launcher_add" />
+</FrameLayout>

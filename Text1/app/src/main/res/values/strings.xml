@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Quan Li Thu Chi</string>
+    <string name="menu_icon_home">Home</string>
+    <string name="menu_income">Quản lí thu</string>
+    <string name="menu_expense">Quản lí chi</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="Activity_Income">Quản lí thu</string>
+    <string name="Activity_Expence">Quản lí chi</string>
+    <string name="Activity_Monthly_Plan">Tạo kế hoạch tháng</string>
+    <string name="Activity_Create">Tạo tài khoản mới</string>
+    <string name="Activity_Manage">Quản lí trong tháng</string>
+    <string name="Activity_Information">Thông tin ban điều hành</string>
+    <string name="Activity_InfoOffice">Ban Mục Vụ Sinh Viên Đaminh</string>
+    <string name="Address_Office">44 Tú Sương, TP. Hồ Chí Minh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Left Menu-->
+    <string name="navigation_drawer_open">Open Navigation Menu</string>
+    <string name="navigation_drawer_close">Close Navigation Menu</string>
+    <string name="Infomation_Office">Ban Muc Sinh Viên Đaminh</string>
+
+    <!--Main Activity-->
+    <string name="Empty_List_Date">Nhấn <b>+</b> để tạo danh sách quản lí.</string>
+
+    <!-- LoginActivity -->
+
+    <string name="Login_user_name">Tài khoản</string>
+    <string name="Login_user_pass">Mật khẩu</string>
+    <string name="Login_register">Đăng ký</string>
+    <string name="login_user_Login">Đăng nhập</string>
+
+    <string name="login_success">Hi, {0}. You login with password is {1}</string>
+    <string name="ErrorUserName">Tên đăng nhập sai!</string>
+    <string name="ErrorPasswork">Mật khẩu sai!</string>
+    <string name="HadAccount">Ứng dụng đã có tài khoản!</string>
+
+    <!--Create Account -->
+    <string name="Creat_Account_User_Name">Tên đăng nhập có ít nhất 8 kí tự</string>
+    <string name="Create_Account_Passwork">Mật khẩu</string>
+    <string name="Create_Account_Repasswwork">Nhập lại mật khẩu</string>
+    <string name="Create_Account_Save">Lưu</string>
+    <string name="Create_Account_User_Name_error">Tên đăng nhập không hợp lệ</string>
+    <string name="Create_Account_Passwork_error">Mất khậu không hợp lệ</string>
+    <string name="Create_Account_Repasswork_error">Mật khẩu không khớp!</string>
+
+    <!-- Manage Activity-->
+    <string name="work">Tên công việc!</string>
+    <string name="money">500 000</string>
+
+    /*Infomation of houses*/
+    <string name="NameofHouse1">LƯU XÁ VINH SƠN</string>
+    <string name="NameofHouse2">LƯU XÁ ĐAMINH CẨM</string>
+    <string name="NameofHouse3">LƯU XÁ ALBERTO</string>
+    <string name="NameofHouse4">LƯU XÁ TOMA AQUINO</string>
+    <string name="NameofHouse5">LƯU XÁ GIUSE KHANG</string>
+
+    <string name="House1">Nhà 1</string>
+    <string name="House2">Nhà 2</string>
+    <string name="House3">Nhà 3</string>
+    <string name="House4">Nhà 4</string>
+    <string name="House5">Nhà 5</string>
+
+    <string name="DateHouse1">(04.05)</string>
+    <string name="DateHouse2">Bổn mạng nhà 2</string>
+    <string name="DateHouse3">Bổn mạng nhà 3</string>
+    <string name="DateHouse4">Bổn mạng nhà 4</string>
+    <string name="DateHouse5">Bổn mạng nhà 5</string>
+
+    <string name="NameTN">Họ tên trưởng nhà</string>
+    <string name="NamePN">Họ tên phó nhà</string>
+    <string name="NameQL">Họ tên quản lí</string>
+    <string name="Number">Số điện thoại</string>
+
+
+</resources>

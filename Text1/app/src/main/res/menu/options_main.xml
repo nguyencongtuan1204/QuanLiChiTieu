@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnGotoExpence"
+        android:icon="@mipmap/ic_launcher_expense"
+        android:title="@string/Activity_Expence"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/btnGotoIncome"
+        android:icon="@mipmap/ic_launcher_income"
+        android:title="@string/Activity_Income"
+        app:showAsAction="never"/>
+
+
+</menu>

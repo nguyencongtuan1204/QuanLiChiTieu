@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnStatistics"
+        android:icon="@mipmap/ic_launcher_statistics"
+        android:title="Thống kê"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/btnNote"
+        android:icon="@mipmap/ic_launcher_note"
+        android:title="Ghi chú"
+        app:showAsAction="always" />
+    <!--<item
+        android:id="@+id/btnSearch"
+        android:title="@string/menu_search"
+        android:icon="@mipmap/ic_launcher_main_search"
+        app:showAsAction="always"
+        /> -->
+    <item
+        android:id="@+id/btnMain"
+        android:title="Màn hình chính"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/btnincome"
+        android:title="@string/menu_income"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnexpense"
+        android:title="@string/menu_expense"
+        app:showAsAction="never"
+        />
+
+
+</menu>

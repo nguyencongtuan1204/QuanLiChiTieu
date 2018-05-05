@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    tools:context="com.tuannguyen.text1.CreateAccoutActivity">
+
+    <ImageView
+        android:id="@+id/imvCreateAccount"
+        android:layout_width="@dimen/Create_Account_Image_width"
+        android:layout_height="@dimen/Create_Account_Image_height"
+        android:layout_marginTop="@dimen/Create_Account_margin_top"
+        android:layout_centerHorizontal="true"
+        android:src="@color/colorPrimary"
+        android:scaleType="fitCenter"
+        />
+
+    <EditText
+        android:id="@+id/edtCreateAccountUserName"
+        android:layout_width="@dimen/Loginwidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imvCreateAccount"
+        android:layout_marginTop="@dimen/Create_Account_margin_extra_top"
+        android:hint="@string/Creat_Account_User_Name"
+        android:textSize="@dimen/fontSize"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edtCreateAccountPasswork"
+        android:layout_width="@dimen/Loginwidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCreateAccountUserName"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:hint="@string/Create_Account_Passwork"
+        android:textSize="@dimen/fontSize"/>
+
+    <EditText
+        android:id="@+id/edtCreateAccountRepasswork"
+        android:layout_width="@dimen/Loginwidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCreateAccountPasswork"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Create_Account_Repasswwork"
+        android:textSize="@dimen/fontSize"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnCreateAccountSave"
+        android:layout_width="@dimen/Loginwidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCreateAccountRepasswork"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Create_Account_Save"
+        android:textColor="@color/colorBackground"
+        android:background="@color/colorPrimary"
+        android:textSize="@dimen/fontSize"/>
+
+
+
+</RelativeLayout>

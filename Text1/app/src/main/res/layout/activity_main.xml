@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.tuannguyen.text1.MainActivity">
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="@dimen/Loginwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Main_margin_left"
+        android:textSize="@dimen/fontSize"
+        android:textColor="@color/TextMain"
+        android:text="@string/Empty_List_Date"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/btnMainAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_Left_Button_Add"
+        android:layout_marginTop="@dimen/margin_Top_Button_Add"
+        android:background="@color/colorBackground"
+        android:src="@mipmap/ic_launcher_add" />
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="@dimen/Loginwidth"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Main_margin_left"
+        android:layout_marginTop="20dp" />
+
+
+</FrameLayout>
